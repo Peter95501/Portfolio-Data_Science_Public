@@ -1,0 +1,7 @@
+[theme]
+base="dark" # Force dark theme
+
+
+
+[client]
+hideThemeSetting=true # Remove the theme toggle option
