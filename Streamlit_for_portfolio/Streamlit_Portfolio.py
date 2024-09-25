@@ -668,7 +668,7 @@ def digit_rec():
     st.html("<h2 style='text-align: center;'>Conclusion</h2>")
     st.html("<h5 style='text-align: center;'>This project has demonstrated the power of deep learning in recognizing handwritten digits with remarkable accuracy, achieving a score of 99.39% on Kaggle. However, there is always room for improvement, especially in addressing subtle misclassifications. By fine-tuning the model, increasing data augmentation, or exploring advanced architectures, we can push this accuracy even higher. Whether you are an aspiring data scientist or a seasoned professional, challenges like these present the perfect opportunity to sharpen your skills, dive deeper into machine learning, and contribute to the exciting world of AI-driven solutions. Now is the time to take action to explore, experiment, and innovate!</h5>")    
 
-    add_orange_line
+    add_orange_line()
 
     col1, col2 = st.columns([1,1])
     with col1:
