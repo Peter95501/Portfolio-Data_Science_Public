@@ -539,7 +539,6 @@ def digit_rec():
                     optimizer.step()
             """
         )
-    add_dashed_grey_line()
 
     ############### Model Arch:
     st.html("<h3 style='text-align: center;'>Model Architecture </h3>")
