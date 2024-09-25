@@ -145,6 +145,7 @@ def introduction():
         st.markdown('<div class="skillsButton">Statistical Analysis</div>', unsafe_allow_html=True)
         st.markdown('<div class="skillsButton">Time-Series Analysis</div>', unsafe_allow_html=True)
         st.markdown('<div class="skillsButton">Git/Github</div>', unsafe_allow_html=True)
+        st.markdown('<div class="skillsButton">AWS</div>', unsafe_allow_html=True)
     with col4:
         st.markdown('<div class="skillsButton">Data Wrangling</div>', unsafe_allow_html=True)
         st.markdown('<div class="skillsButton">Predictive Modeling</div>', unsafe_allow_html=True)
