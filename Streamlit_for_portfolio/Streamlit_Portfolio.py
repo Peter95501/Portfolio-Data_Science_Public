@@ -672,7 +672,8 @@ def digit_rec():
                 </div>
                 """, unsafe_allow_html=True)
     
-    st.markdown("<hr style='border:5px solid grey;'>", unsafe_allow_html=True)
+    st.html("<h2 style='text-align: center;'>Below are file downloads for the NN and submission files</h2>")
+    st.markdown("<hr style='border:5px solid grey; margin-top: -10px;'>", unsafe_allow_html=True)
     
     col1, col2 = st.columns([1,1])
     with col1:
