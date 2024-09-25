@@ -663,8 +663,6 @@ def digit_rec():
         st.image("Digit_Recognizer/pics/Digit_Recognizer_Code_Result_Accuracy.png")
         submission = pd.read_csv('Digit_Recognizer/output/submission_CNN_Digit_Recognizer_2024-09-24_15-00-07.csv') 
 
-    add_orange_line()
-
     st.markdown("""
                     <div style='border: 2px solid orange; padding: 20px; margin-top: 10px; text-align: center;'>
                         <h2 style='text-align: center;'>Conclusion</h2>
