@@ -150,9 +150,13 @@ def introduction():
     with st.expander("Machine Learning & Artificial Intelligence"):
         col1, col2 = st.columns(2)
         with col1:
+            st.markdown('<div class="skillsButton">PyTorch</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">TensorFlow</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Keras</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">XGBoost/LightGBM</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">Predictive Modeling</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">NLP (Natural Language Processing)</div>', unsafe_allow_html=True)
+            
         
     # Stat Analysis 
     with st.expander("Statistical Analysis"):
