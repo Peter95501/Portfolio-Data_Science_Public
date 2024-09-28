@@ -130,6 +130,7 @@ def introduction():
     # Technical Skills
     # Programming
     with st.expander("Programming & Tools"):
+        col1, col2 = st.columns(2)
         with col1:
             st.markdown('<div class="skillsButton">Python</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">R</div>', unsafe_allow_html=True)
@@ -137,6 +138,7 @@ def introduction():
             
     # Data Wrangling & ETL 
     with st.expander("Data Wrangling"):
+        col1, col2 = st.columns(2)
         with col1:
             st.markdown('<div class="skillsButton">Data Wrangling</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">Data Cleaning</div>', unsafe_allow_html=True)
@@ -146,6 +148,7 @@ def introduction():
         
     # ML, AI
     with st.expander("Machine Learning & Artificial Intelligence"):
+        col1, col2 = st.columns(2)
         with col1:
             st.markdown('<div class="skillsButton">XGBoost/LightGBM</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">Predictive Modeling</div>', unsafe_allow_html=True)
@@ -153,6 +156,7 @@ def introduction():
         
     # Stat Analysis 
     with st.expander("Statistical Analysis"):
+        col1, col2 = st.columns(2)
         with col1:
             st.markdown('<div class="skillsButton">ANOVA (Analysis of Variance)</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">Hypothesis Testing</div>', unsafe_allow_html=True)
@@ -165,6 +169,7 @@ def introduction():
 
     # Data Analysis & Vis
     with st.expander("Data Analysis and Visualization"):
+        col1, col2 = st.columns(2)
         with col1:
             st.markdown('<div class="skillsButton">Matplotlib</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">Seaborn</div>', unsafe_allow_html=True)
@@ -175,18 +180,21 @@ def introduction():
 
     # Cloud & Data Platforms
     with st.expander("Cloud & Data Platforms"):
+        col1, col2 = st.columns(2)
         with col1:
             st.markdown('<div class="skillsButton">AWS (S3, SageMaker, EC2)</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">Azure (SQL DB)</div>', unsafe_allow_html=True)
 
     # Version Contol 
     with st.expander("Version Control"):
+        col1, col2 = st.columns(2)
         with col1:
             st.markdown('<div class="skillsButton">Git/Github</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">Docker</div>', unsafe_allow_html=True)
 
     # Soft Skills 
     with st.expander("Professional Skillset"):
+        col1, col2 = st.columns(2)
         with col1:
             st.markdown('<div class="skillsButton">Problem Solving</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">Communication</div>', unsafe_allow_html=True)
@@ -199,12 +207,14 @@ def introduction():
 
     # Math & Algorithms
     with st.expander("Mathematics & Alogrithms"):
+        col1, col2 = st.columns(2)
         with col1:
             st.markdown('<div class="skillsButton">Linear Algebra</div>', unsafe_allow_html=True) 
             st.markdown('<div class="skillsButton">Optimization Techniques</div>', unsafe_allow_html=True)
     
     # Sys Admin & Automation
     with st.expander("System Administration & Automation"):
+        col1, col2 = st.columns(2)
         with col1:
             st.markdown('<div class="skillsButton">Linux/UNIX</div>', unsafe_allow_html=True)  
             st.markdown('<div class="skillsButton">Shell Scripting</div>', unsafe_allow_html=True)
