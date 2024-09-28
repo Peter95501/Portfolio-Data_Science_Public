@@ -126,7 +126,7 @@ def introduction():
     add_orange_line()
     # Columns for skills
     st.markdown("""
-    <div style='margin-bottom: 20px;'>
+    <div style='margin-top: -10px; margin-bottom: 20px;'>
         Below are dropdowns for each skillset category
     </div>
     """, unsafe_allow_html=True)
