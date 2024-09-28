@@ -126,7 +126,9 @@ def introduction():
     add_orange_line()
     # Columns for skills
     st.write("Below are dropdowns for each skillset category")
-    
+
+    st.markdown("<hr style= margin-bottom: 10px;'>", unsafe_allow_html=True)
+    st.markdown("<hr style='border:1px dashed grey; margin-top: -10px; margin-bottom: -10x;'>", unsafe_allow_html=True)
     # Technical Skills
     # Programming
     with st.expander("Programming & Tools"):
