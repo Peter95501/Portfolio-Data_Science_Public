@@ -125,32 +125,90 @@ def introduction():
     st.subheader("My Skills")
     add_orange_line()
     # Columns for skills
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        st.markdown('<div class="skillsButton">Python</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">R</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">SQL</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">Keras</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">Sklearn</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">PyTorch</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">TensorFlow</div>', unsafe_allow_html=True)
-    with col2:
-        st.markdown('<div class="skillsButton">Matplotlib</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">Seaborn</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">Data-driven decision-making</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">NLP</div>', unsafe_allow_html=True)
-    with col3:
-        st.markdown('<div class="skillsButton">Data Cleaning</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">Preprocessing</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">Statistical Analysis</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">Time-Series Analysis</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">Git/Github</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">AWS</div>', unsafe_allow_html=True)
-    with col4:
-        st.markdown('<div class="skillsButton">Data Wrangling</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">Predictive Modeling</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">Data Mining</div>', unsafe_allow_html=True)
-        st.markdown('<div class="skillsButton">ETL Processes</div>', unsafe_allow_html=True)
+
+    col1, col2 = st.columns(2)
+    # Technical Skills
+    # Programming
+    with st.expander("Programming & Tools"):
+        with col1:
+            st.markdown('<div class="skillsButton">Python</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">R</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">SQL</div>', unsafe_allow_html=True)
+            
+    # Data Wrangling & ETL 
+    with st.expander("Data Wrangling"):
+        with col1:
+            st.markdown('<div class="skillsButton">Data Wrangling</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Data Cleaning</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Data Mining</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">ETL/Extract-Transform-Load Processes</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Preprocessing</div>', unsafe_allow_html=True)
+        
+    # ML, AI
+    with st.expander("Machine Learning & Artificial Intelligence"):
+        with col1:
+            st.markdown('<div class="skillsButton">XGBoost/LightGBM</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Predictive Modeling</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">NLP (Natural Language Processing)</div>', unsafe_allow_html=True)
+        
+    # Stat Analysis 
+    with st.expander("Statistical Analysis"):
+        with col1:
+            st.markdown('<div class="skillsButton">ANOVA (Analysis of Variance)</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Hypothesis Testing</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Regression Analysis</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Bayesian Inference</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Time-Series Analysis</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">GLMs (Generalized Linear Models)</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Multivariate Analysis (PCA & CCA)</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">MCMC (Markov Chain Monte Carlo)</div>', unsafe_allow_html=True)
+
+    # Data Analysis & Vis
+    with st.expander("Data Analysis and Visualization"):
+        with col1:
+            st.markdown('<div class="skillsButton">Matplotlib</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Seaborn</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">ggplot2</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Pandas</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">NumPy</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Power BI</div>', unsafe_allow_html=True)
+
+    # Cloud & Data Platforms
+    with st.expander("Cloud & Data Platforms"):
+        with col1:
+            st.markdown('<div class="skillsButton">AWS (S3, SageMaker, EC2)</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Azure (SQL DB)</div>', unsafe_allow_html=True)
+
+    # Version Contol 
+    with st.expander("Version Control"):
+        with col1:
+            st.markdown('<div class="skillsButton">Git/Github</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Docker</div>', unsafe_allow_html=True)
+
+    # Soft Skills 
+    with st.expander("Professional Skillset"):
+        with col1:
+            st.markdown('<div class="skillsButton">Problem Solving</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Communication</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Collaboration</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Critical Thinking</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Adaptability</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Data-driven decision-making</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Microsoft Office</div>', unsafe_allow_html=True)
+        st.markdown('<div class="skillsButton">Google Workspace</div>', unsafe_allow_html=True)
+
+    # Math & Algorithms
+    with st.expander("Mathematics & Alogrithms"):
+        with col1:
+            st.markdown('<div class="skillsButton">Linear Algebra</div>', unsafe_allow_html=True) 
+            st.markdown('<div class="skillsButton">Optimization Techniques</div>', unsafe_allow_html=True)
+    
+    # Sys Admin & Automation
+    with st.expander("System Administration & Automation"):
+        with col1:
+            st.markdown('<div class="skillsButton">Linux/UNIX</div>', unsafe_allow_html=True)  
+            st.markdown('<div class="skillsButton">Shell Scripting</div>', unsafe_allow_html=True)
+  
 
 def eda():
     st.html("<h1 style='text-align: center;'>Exploratory Data Analysis Example</h1>")
