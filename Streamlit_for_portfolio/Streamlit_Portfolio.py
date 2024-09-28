@@ -125,8 +125,8 @@ def introduction():
     st.subheader("My Skills")
     add_orange_line()
     # Columns for skills
-
-    col1, col2 = st.columns(2)
+    st.write("Below are dropdowns for each skillset category")
+    
     # Technical Skills
     # Programming
     with st.expander("Programming & Tools"):
