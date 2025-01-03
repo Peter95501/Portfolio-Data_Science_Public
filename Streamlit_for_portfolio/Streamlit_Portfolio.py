@@ -249,7 +249,7 @@ def eda():
             st.write("")  # Empty column for spacing of the sunflower pic
         
         with col2:
-            st.image("World_Happiness_Files/Happy_Sunflower.jpg", use_column_width=True)
+            st.image("World_Happiness_Files/Happy_Sunflower.jpg", use_container_width=True)
         
         with col3:
             st.write("")  # Empty column for spacing of the sunflower pic
