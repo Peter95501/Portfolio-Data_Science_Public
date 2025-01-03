@@ -454,7 +454,7 @@ def digit_rec():
     with col1:
         st.write("")
     with col2:
-        st.image("Digit_Recognizer/pics/header.png", use_column_width=True)
+        st.image("Digit_Recognizer/pics/header.png", use_container_width=True)
     with col3:
         st.write("")
     st.html("<h2 style='text-align: center;'>Project Description </h2>")
@@ -491,7 +491,7 @@ def digit_rec():
                     Why does this matter? A balanced dataset ensures that our model has sufficient examples of each digit during training, which helps it learn to accurately classify all digits, avoiding bias toward more frequent classes. This balance is crucial for the model's performance, as it ensures equitable learning across all digit categories.
                 """)
     with col2:
-        st.image(nn_img_path + "Distribution of Digits in Training Data.png", use_column_width=True)
+        st.image(nn_img_path + "Distribution of Digits in Training Data.png", use_container_width=True)
 
     st.markdown("---")
 
@@ -510,7 +510,7 @@ def digit_rec():
                     This visualization helps us understand the makeup of the images and ensures that the dataset contains a rich range of pixel intensities. A high concentration of white pixels (255) is expected due to the empty background in the digit images, while the spread of intensities reflects the presence of digit strokes in different shades.
                 """)
     with col2:
-        st.image(nn_img_path + "Distribution of Pixel Density.png", use_column_width=True)
+        st.image(nn_img_path + "Distribution of Pixel Density.png", use_container_width=True)
 
     st.markdown("---")
 
@@ -527,7 +527,7 @@ def digit_rec():
 
                 """)
     with col2:
-        st.image(nn_img_path + "Sample Digits in Order.png", use_column_width=True)
+        st.image(nn_img_path + "Sample Digits in Order.png", use_container_width=True)
 
     st.markdown("---")
 
@@ -544,7 +544,7 @@ def digit_rec():
                     - This visualization is useful for understanding common patterns and how certain parts of the digits may vary or remain consistent across the dataset.
                 """)
     with col2:
-        st.image(nn_img_path + "Average Image for Each Digit (0-9).png", use_column_width=True)
+        st.image(nn_img_path + "Average Image for Each Digit (0-9).png", use_container_width=True)
 
     st.markdown("---")
 
@@ -563,7 +563,7 @@ def digit_rec():
                     This variance analysis is useful in understanding which areas of the images contribute the most to the diversity in the dataset, and where a model needs to focus its learning for accurate digit classification.
                 """)
     with col2:
-        st.image(nn_img_path + "Pixel Variance Across All Images.png", use_column_width=True)
+        st.image(nn_img_path + "Pixel Variance Across All Images.png", use_container_width=True)
 
     st.markdown("---")
 
@@ -680,7 +680,7 @@ def digit_rec():
                 - The use of early stopping and learning rate scheduling helped prevent overfitting and ensured that the training stopped at an optimal point.
                 """)
     with col2:
-        st.image(nn_img_path + "Training and Validation Loss over Epochs.png", use_column_width=True, )
+        st.image(nn_img_path + "Training and Validation Loss over Epochs.png", use_container_width=True, )
 
     st.markdown("---")
 
@@ -696,7 +696,7 @@ def digit_rec():
                 - The near-perfect training accuracy showcases the strength of the model’s architecture, allowing it to fit well to the provided data. However, achieving high training accuracy alone does not necessarily guarantee generalization to unseen data, which is why comparing this with validation accuracy is crucial to ensure balanced performance.
                 """)
     with col2:
-        st.image(nn_img_path + "Training Accuracy Over Epochs.png", use_column_width=True, )
+        st.image(nn_img_path + "Training Accuracy Over Epochs.png", use_container_width=True, )
 
     st.markdown("---")
 
@@ -716,7 +716,7 @@ def digit_rec():
                 """)
         st.image(nn_img_path + "Accuracy by Digit Class.png", width=250 )
     with col2:
-        st.image(nn_img_path + "Confusion Matrix.png", use_column_width=True, )
+        st.image(nn_img_path + "Confusion Matrix.png", use_container_width=True, )
 
     st.markdown("---")
 
@@ -731,7 +731,7 @@ def digit_rec():
                     - 7 misclassified as 2: The sharp angles of '7' can resemble the curves of '2', especially when the '7' is written without a distinct crossbar.
                 """)
     with col2:
-        st.image(nn_img_path + "Sample of Misclassified Digit Classes.png", use_column_width=True)
+        st.image(nn_img_path + "Sample of Misclassified Digit Classes.png", use_container_width=True)
     
     add_dashed_grey_line()
 
