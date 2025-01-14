@@ -1,9 +1,16 @@
 # Data Science Portfolio  
-![License](https://img.shields.io/badge/License-MIT-green)  
-![Python](https://img.shields.io/badge/python-3.12%2B-blue)  
+![Python](https://img.shields.io/badge/python-3.12%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.13.1-red?logo=pytorch&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-HTML-orange?logo=jupyter&logoColor=white)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-January%202025-orange)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-HTML-orange?logo=jupyter&logoColor=white)  
+![Keras](https://img.shields.io/badge/Keras-3.7.0-deepred?logo=keras&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.5.1-orange?logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.9.2-blue?logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-9cf?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.2.3-darkblue?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-1.26.4-blue?logo=numpy&logoColor=white)  
+![Streamlit](https://img.shields.io/badge/Streamlit-1.41.0-brightgreen?logo=streamlit)  
+![Last Updated](https://img.shields.io/badge/Last%20Updated-January%202025-orange)  
+![License](https://img.shields.io/badge/License-MIT-green)  
 
 Welcome to my Data Science Portfolio! This repository showcases my skills, projects, and accomplishments in data science, with examples of real-world applications. Potential employers can explore my work and assess my capabilities in machine learning, data analysis, and visualization.
 
@@ -20,6 +27,8 @@ Welcome to my Data Science Portfolio! This repository showcases my skills, proje
 6. [Contributions](#contributions)
 
 ## Digit Recognizer
+![Digit Recognizer Visualization](Digit_Recognizer/pics/header.png)  
+
 Description:
 - This folder contains my project for the Kaggle Digit Recognizer competition.
 
@@ -33,8 +42,6 @@ Highlights:
 - Comprehensive analysis and model tuning.
 - Achieved a competitive accuracy of 99.389% on Kaggle.
 
-![Digit Recognizer Visualization](Digit_Recognizer/pics/header.png)
-
 Files:
 - Code, data preprocessing scripts, and results documentation.
 
@@ -43,6 +50,8 @@ Files:
 
 
 ## Streamlit for Portfolio
+![Streamlit App Screenshot](Streamlit_for_portfolio/Streamlit.png)  
+
 Description:
 - This folder includes the Streamlit app I created to display my data science portfolio interactively.
 
@@ -50,7 +59,7 @@ Highlights:
 - Demonstrates the use of Python-based Streamlit framework for creating dashboards.
 - Includes various visualizations and project insights.
 
-![Streamlit App Screenshot](Streamlit_for_portfolio/Streamlit.png)
+
 
 Files:
 - Python scripts for the app, sample data, and setup instructions.
@@ -59,6 +68,7 @@ Files:
 
 
 ## World Happiness Files
+![World Happiness Pic](World_Happiness_Files/Happy_Sunflower.jpg)  
 Description:
 - This folder contains my analysis of the World Happiness Report dataset. It focuses on exploring factors affecting happiness scores across countries.
 
@@ -75,8 +85,11 @@ Files:
 
 
 ## How to Use
+
 Clone the repository:
-### bash Script
+
+### Bash Script
+
 Copy the code
 - git clone https://github.com/Peter95501/Portfolio-Data_Science_Public.git
 - cd Portfolio-Data_Science_Public
@@ -87,10 +100,13 @@ Copy the code
 
 
 ## About Me
+
 ![Profile Picture](Streamlit_for_portfolio/Profile_pic_of_me.jpg)  
+
 I am a passionate data scientist pursuing a career at the intersection of machine learning, data analysis, and impactful problem-solving. With hands-on experience in building ML models, interactive dashboards, and exploratory analysis, I am constantly learning and developing innovative solutions.
 
 Contact me with:
+
 - [**LinkedIn**](https://www.linkedin.com/in/peter-henry-783a88121/) 
 - [**Email**](mailto:peter.henry.career@gmail.com)
 
@@ -99,6 +115,7 @@ Contact me with:
 
 
 ## Contributions
+
 I welcome feedback and contributions! If you find something interesting or have suggestions for improvement, feel free to open an issue or a pull request.
 
 
@@ -106,6 +123,7 @@ I welcome feedback and contributions! If you find something interesting or have 
 
 
 ## License
+
 This repository is licensed under the MIT License.
 
 Thank you for visiting my portfolio! 🌟
