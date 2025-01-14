@@ -1,13 +1,36 @@
+# Data Science Portfolio  
+![Python](https://img.shields.io/badge/python-3.12%2B-blue)  
+![License](https://img.shields.io/badge/License-MIT-green)  
+![Last Updated](https://img.shields.io/badge/Last%20Updated-January%202025-orange)
+
 Welcome to my Data Science Portfolio! This repository showcases my skills, projects, and accomplishments in data science, with examples of real-world applications. Potential employers can explore my work and assess my capabilities in machine learning, data analysis, and visualization.
+
+## Table of Contents
+1. [Digit Recognizer](#digit-recognizer)
+2. [Streamlit for Portfolio](#streamlit-for-portfolio)
+3. [World Happiness Files](#world-happiness-files)
+4. [How to Use](#how-to-use)
+5. [About Me](#about-me)
+6. [Contributions](#contributions)
+
 
 # Repository Structure
 ## Digit Recognizer
 Description:
-- This folder contains my project for the Kaggle Digit Recognizer competition. The goal was to classify handwritten digits (0-9) from the MNIST dataset using machine learning models.
+- This folder contains my project for the Kaggle Digit Recognizer competition.
+
+| Feature | Details |
+|---------|---------|
+| **Goal** | Classify handwritten digits (0-9) from the MNIST dataset |
+| **Accuracy** | 99.389% on Kaggle |
+| **Files** | Code, data preprocessing scripts, and results |
 
 Highlights:
 - Comprehensive analysis and model tuning.
 - Achieved a competitive accuracy of 99.389% on Kaggle.
+
+![Digit Recognizer Visualization](Digit_Recognizer/pics/header.png)
+
 Files:
 - Code, data preprocessing scripts, and results documentation.
 
@@ -22,6 +45,9 @@ Description:
 Highlights:
 - Demonstrates the use of Python-based Streamlit framework for creating dashboards.
 - Includes various visualizations and project insights.
+
+![Streamlit App Screenshot](Streamlit_for_portfolio/Streamlit.png)
+
 Files:
 - Python scripts for the app, sample data, and setup instructions.
 
@@ -57,9 +83,12 @@ Copy the code
 
 
 ## About Me
+![Profile Picture](Streamlit_for_portfolio/Profile_pic_of_me.jpg)  
 I am a passionate data scientist pursuing a career at the intersection of machine learning, data analysis, and impactful problem-solving. With hands-on experience in building ML models, interactive dashboards, and exploratory analysis, I am constantly learning and developing innovative solutions.
 
-Feel free to connect with me via [**LinkedIn**](https://www.linkedin.com/in/peter-henry-783a88121/) or [**Email**](mailto:peter.henry.career@gmail.com)
+Contact me with:
+- [**LinkedIn**](https://www.linkedin.com/in/peter-henry-783a88121/) 
+- [**Email**](mailto:peter.henry.career@gmail.com)
 
 
 
@@ -72,7 +101,9 @@ I welcome feedback and contributions! If you find something interesting or have 
 
 
 
-
+## License
+This repository is licensed under the MIT License. ![License](https://img.shields.io/badge/License-MIT-green)
+Thank you for visiting my portfolio! 🌟
 
 
 
