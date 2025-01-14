@@ -1,10 +1,16 @@
 # Data Science Portfolio  
-![Python](https://img.shields.io/badge/python-3.12%2B-blue)  
 ![License](https://img.shields.io/badge/License-MIT-green)  
+![Python](https://img.shields.io/badge/python-3.12%2B-blue)  
+![PyTorch](https://img.shields.io/badge/PyTorch-1.13.1-red?logo=pytorch&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-HTML-orange?logo=jupyter&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-January%202025-orange)
 
 Welcome to my Data Science Portfolio! This repository showcases my skills, projects, and accomplishments in data science, with examples of real-world applications. Potential employers can explore my work and assess my capabilities in machine learning, data analysis, and visualization.
 
+
+
+
+# Repository Structure
 ## Table of Contents
 1. [Digit Recognizer](#digit-recognizer)
 2. [Streamlit for Portfolio](#streamlit-for-portfolio)
@@ -13,8 +19,6 @@ Welcome to my Data Science Portfolio! This repository showcases my skills, proje
 5. [About Me](#about-me)
 6. [Contributions](#contributions)
 
-
-# Repository Structure
 ## Digit Recognizer
 Description:
 - This folder contains my project for the Kaggle Digit Recognizer competition.
@@ -102,7 +106,8 @@ I welcome feedback and contributions! If you find something interesting or have 
 
 
 ## License
-This repository is licensed under the MIT License. ![License](https://img.shields.io/badge/License-MIT-green)
+This repository is licensed under the MIT License.
+
 Thank you for visiting my portfolio! 🌟
 
 
