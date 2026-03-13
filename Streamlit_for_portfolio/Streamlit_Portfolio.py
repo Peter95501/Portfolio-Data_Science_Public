@@ -191,6 +191,7 @@ def introduction():
         with col1:
             st.markdown('<div class="skillsButton">AWS (S3, SageMaker, EC2)</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">Azure (SQL DB)</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">GCP (SQL BigQuery, Vertex AI)</div>', unsafe_allow_html=True)
 
     # Version Contol 
     with st.expander("Version Control"):
