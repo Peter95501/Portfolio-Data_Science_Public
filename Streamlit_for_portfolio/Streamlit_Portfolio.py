@@ -197,7 +197,7 @@ def introduction():
     with st.expander("Version Control"):
         col1, col2 = st.columns(2)
         with col1:
-            st.markdown('<div class="skillsButton">Git/Github</div>', unsafe_allow_html=True)
+            st.markdown('<div class="skillsButton">Git/Github/GitLab</div>', unsafe_allow_html=True)
             st.markdown('<div class="skillsButton">Docker</div>', unsafe_allow_html=True)
 
     # Soft Skills 
