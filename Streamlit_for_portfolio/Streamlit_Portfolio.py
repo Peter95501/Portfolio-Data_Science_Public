@@ -109,7 +109,7 @@ def introduction():
         """)
         # Personal Info:
         st.write("Name: Peter Henry")
-        st.write("Location: Willing to move anywhere in the contiguous USA")
+        st.write("Location: Greater Nashville, TN Area")
         st.write("Interests: Machine Learning, Data Science, Business Consulting")
         st.write("[LinkedIn](https://www.linkedin.com/in/peter-henry-783a88121/)")    
     
